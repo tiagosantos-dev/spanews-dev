@@ -1,0 +1,23 @@
+<section id="news-container">
+    <div class="news-saudation">
+        <h1>Ciência todo dia.</h1>
+    
+    </div>
+     <h2 class="sub">Ciência</h2>
+    <div class="news">
+        <div class="container-card">
+            <div *ngFor="let new of news" class="card-news">
+                <h3 class="title">{{new.title}}</h3>
+                <p class="description">{{new.description}}</p>
+                <img src="{{new.urlToImage}}">
+                <p>{{new.content}} <a href="{{new.url}}" target="blank">Ver mais</a></p>
+                <span class="date"> {{new.publishedAt |  date :'dd-MMM-yy h:mm:ss a z'}}</span>
+            </div>
+            
+            
+            
+        </div>
+       
+    </div>
+
+</section>

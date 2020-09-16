@@ -1,0 +1,59 @@
+#header-container{
+    width: 100%;
+ 
+    text-align: center;
+   font-size: 2rem;
+   padding:  10px 0px;
+   
+
+}
+
+
+.logo,.lista{
+    color: var(--purp);
+   
+}
+
+.lista{
+
+    
+}
+.lista li{
+   
+    display: inline;
+    font-size: 1.5rem;
+    box-shadow: 7px 5px 30px 0px rgba(72, 73, 121, 0.15);
+    font-style: none;
+}
+
+.lista li a{
+    padding: 30px;
+    background: var(--white);
+    text-decoration: none;  
+    color: var(--purp);
+
+}
+
+.active{
+   box-shadow: 4px 2px 4px var(--purp);
+}
+
+@media screen and (max-width: 768px){
+    .lista{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .lista li{
+        display: block;
+        width: 100%;
+
+    }
+    .lista li a{
+        padding: 5px;
+        width: 100%;
+        display: block;
+    }
+
+
+}

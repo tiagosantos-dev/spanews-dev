@@ -1,0 +1,28 @@
+#main-container{
+    width: 100%;
+
+}
+.procurar{
+    width: 100%;
+    display: flex;
+    font-size: 1.5rem;
+
+}
+.procurar #campo-procurar{
+    
+
+    width: 50%;
+    border:none;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 7px;
+
+}
+
+@media screen and (max-width: 768px){
+    .procurar #campo-procurar{
+        width: 80%;
+
+    }
+
+}
